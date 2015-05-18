@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MAIN>
+<GEODOCMANAGER aligngrille="false" angle="0" colgrille="-3618616" comauto="false" commentaires="" debx="-13.623166958406554" deby="-6.774604198642998" desgrille="1" eq="0" finx="13.623166958406554" finy="6.774604198642998" gradx="1.0" grady="1.0" grilx="1.0" grily="1.0" rapport="1.0" visaxe="false" visgrad="true" visgrille="false" visnb="false"/>
+<GEOVECTOR>
+<AXE fictif="false" nom="(Ox)" vertical="false">
+<GEOASPECTLIGNE couleur="-65536" dash="0" epaisseur="0" istrace="false" visible="false"/>
+</AXE>
+<AXE fictif="false" nom="(Oy)" vertical="true">
+<GEOASPECTLIGNE couleur="-65536" dash="0" epaisseur="0" istrace="false" visible="false"/>
+</AXE>
+<POINTINTERDROITE d1="(Ox)" d2="(Oy)" fictif="false" nom="o">
+<GEOASPECTPOINT affichenom="true" couleur="-65536" decx="-5" decy="-7" font="Dialog" istrace="false" style="0" symbole="1" taille="12" visible="false"/>
+</POINTINTERDROITE>
+</GEOVECTOR>
+</MAIN>

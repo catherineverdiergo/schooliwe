@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="schooliwe">
+
+	<target name="clean">
+		<delete dir="bin"/>
+		<delete dir="exe"/>
+	</target>
+	
+	<path id="classpath">
+			<fileset dir=".">
+				<include name="lib/*.jar" />
+				<exclude name="lib/*sources.jar"/>
+				<exclude name="lib/*javadoc.jar"/>
+			</fileset>
+	</path>
+	
+	<target name="compile">
+		<mkdir dir="bin"/>
+		<javac target="1.7" srcdir="src" destdir="bin" classpathref="classpath"/>
+	</target>
+	
+	<target name="prepare_exe">
+		<copy todir="exe" >
+			<fileset dir=".">
+				<include name="conf/**"/>
+			</fileset>
+		</copy>
+		<copy todir="exe" >
+			<fileset dir=".">
+				<include name="images/**"/>
+			</fileset>
+		</copy>
+		<copy todir="exe" >
+			<fileset dir=".">
+				<include name="lib/**"/>
+			</fileset>
+		</copy>
+		<copy todir="exe" >
+			<fileset dir=".">
+				<include name="rsc/**"/>
+			</fileset>
+		</copy>
+		<copy todir="exe" >
+			<fileset dir=".">
+				<include name="start.sh"/>
+				<include name="start.bat"/>
+			</fileset>
+		</copy>
+		<mkdir dir="exe/SchoolIWEData"/>
+	</target>
+	
+	<target name="jar">
+		<mkdir dir="exe"/>
+		<jar destfile="exe/schooliwe.jar" basedir="bin">
+			<manifest>
+				<attribute name="Main-Class" value="com.schooliwe.tests.SchoolIWE"/>
+			</manifest>
+		</jar>
+	</target>
+	
+	<target name="zip">
+		<zip destfile="schooliwe.zip" basedir="exe"/>
+	</target>
+	
+</project>

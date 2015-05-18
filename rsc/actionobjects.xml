@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<objects>
+	<object id="timetable" class="com.schooliwe.timetable.TimeTable"/>
+	<object id="agenda" class="com.schooliwe.agenda.DailyAgenda"/>
+	<object id="lessonsManager" class="com.schooliwe.lesson.LessonsManager"/>
+</objects>

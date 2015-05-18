@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<applications>
+	<application type="text"
+				 labelType="Texte"
+				 dir="/opt/openoffice.org3/program"
+				 exe="swriter"
+				 icon="file.png"
+				 extension=".odt"
+	/>
+	<application type="calc"
+				 labelType="Feuille de calculs"
+				 dir="/opt/openoffice.org3/program"
+				 exe="scalc"
+				 icon="table.png"
+				 extension=".ods"
+	/>
+	<application type="pres"
+				 labelType="Présentation"
+				 dir="/opt/openoffice.org3/program"
+				 exe="simpress"
+				 icon="presentation.png"
+				 extension=".odp"
+	/>
+	<application type="mindmap"
+				 labelType="Carte mentale"
+				 dir="/home/lucien/XMind/XMind_Linux"
+				 workingdir="/home/lucien/XMind/XMind_Linux"
+				 exe="XMind"
+				 icon="mindmap.png"
+				 extension=".xmind"
+	/>
+	<application type="geogebra"
+				 labelType="Geogebra"
+				 dir="/usr/bin"
+				 workingdir="/usr/share/geogebra"
+				 exe="java -jar geogebra.jar"
+				 icon="Geogebra_ico.png"
+				 extension=".ggb"
+	/>
+	<application type="geolabo"
+				 labelType="GeoLabo"
+				 dir="/usr/bin"
+				 workingdir="/home/lucien/Desktop/Geolabo"
+				 exe="java -jar GeoLabo.jar"
+				 icon="geolabo.png"
+				 extension=".glb"
+	/>
+</applications>

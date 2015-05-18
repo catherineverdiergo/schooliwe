@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<vacations>
+	<vacation id="1" label="Vacances de la Toussaint" img="vac_automne.jpg" opendate="20121027" closedate="20121111"/>
+	<vacation id="2" label="Vacances de Noël" img="vac_noel.jpg" opendate="20121222" closedate="20130106"/>
+	<vacation id="3" label="Vacances d'hiver" img="vac_hiver.jpg" opendate="20130302" closedate="20130317"/>
+	<vacation id="4" label="Vacances de printemps" img="vac_printemps.jpg" opendate="20130427" closedate="20130512"/>
+	<vacation id="5" label="Vacances d'été" img="vac_ete.jpg" opendate="20130705" closedate="20130903"/>
+</vacations>

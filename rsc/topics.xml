@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<menu>
+	<topic name="Emploi du temps" icon="timetable.png" actionObjectId="timetable"/>
+	<topic name="Agenda" icon="agenda.png" actionObjectId="agenda"/>
+	<topic name="Français" timetable="y" icon="french.png" lesson="y" actionObjectId="lessonsManager"/>
+	<topic name="Mathématiques" timetable="y" timetableLabel="Math" icon="math.png" lesson="y" actionObjectId="lessonsManager">
+	<!-- 
+		<actionObj/>
+		<subtopics>
+			<topic name="Numérique" icon="num.png" lesson="y" actionObjectId="lessonsManager"/>
+			<topic name="Géométrie" icon="geometry.png" lesson="y" actionObjectId="lessonsManager"/>
+		</subtopics>
+	 -->
+	</topic>
+	<topic name="Anglais" timetable="y" icon="english.png" lesson="y" actionObjectId="lessonsManager"/>
+	<topic name="Espagnol" timetable="y" icon="spanish.png" lesson="y" actionObjectId="lessonsManager"/>
+	<topic name="Histoire" timetable="y" icon="history.png" timetableLabel="Hist./Géo." lesson="y" actionObjectId="lessonsManager"/>
+	<topic name="Geographie" timetable="y" icon="geography.png" timetableLabel="Hist./Géo." lesson="y" actionObjectId="lessonsManager"/>
+	<topic name="E. Civique" timetable="y" icon="france.png" timetableLabel="Hist./Géo." lesson="y" actionObjectId="lessonsManager"/>
+	<topic name="Science et Vie de la Terre" timetable="y" timetableLabel="S.V.T" icon="svt.png" lesson="y" actionObjectId="lessonsManager"/>
+	<topic name="Physique" timetable="y" icon="physics.png" lesson="y" actionObjectId="lessonsManager"/>
+	<topic name="Musique" timetable="y" icon="music.png" lesson="y" actionObjectId="lessonsManager"/>
+	<topic name="Technologie" timetable="y" icon="technology.png" lesson="y" actionObjectId="lessonsManager"/>
+	<topic name="Arts plastiques" timetable="y" icon="ap.png" lesson="y" actionObjectId="lessonsManager"/>
+	<topic name="Education Physique" timetable="y" icon="sport.png" timetableLabel="E.P.S"/>
+	<topic name="Vie de la classe" timetable="y" icon="meeting.png" timetableLabel="Vie classe"/>
+	<topic name="Libéré" timetable="y" icon="pause.png" vacant="yes"/>
+</menu>

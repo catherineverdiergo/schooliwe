@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+ 
+<!-- Note that this file is refreshed by the server every 60seconds, as specified in web.xml -->
+ 
+<log4j:configuration debug="true">
+ 
+  <appender name="ROLL" class="org.apache.log4j.rolling.RollingFileAppender">
+    <rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+      <param name="FileNamePattern" value="log/foo.%d{yyyy-MM}.gz"/>
+    </rollingPolicy>
+
+    <layout class="org.apache.log4j.PatternLayout">
+      <param name="ConversionPattern" value="%c{1} - %m%n"/>
+    </layout>
+  </appender>
+
+  <root>
+    <appender-ref ref="ROLL"/>
+  </root>
+    <!-- Loggers to filter out various class paths -->
+ 
+    <logger name="com.schooliwe" additivity="false">
+        <level value="error"/>
+        <appender-ref ref="ROLL" />
+    </logger>
+ 
+    <!-- Debugging loggers -->
+ 
+    <!-- Uncomment to enable debug on calpoly code only -->
+    <!--
+    <logger name="edu.calpoly">
+        <level value="debug"/>
+        <appender-ref ref="ROLL" />
+    </logger>
+    -->
+ 
+    <root>
+        <priority value="info" />
+        <appender-ref ref="ROLL" />
+    </root>
+ 
+</log4j:configuration>

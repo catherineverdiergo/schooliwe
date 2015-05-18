@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<drivers>
+	<driver type="text" extensions=".doc,.odt,.docx" class="com.schooliwe.driver.TextDocumentDriver"/>
+	<driver type="calc" extensions=".xls,.ods" class="com.schooliwe.driver.CalcDocumentDriver"/>
+	<driver type="pres" extensions=".ppt,.odp" class="com.schooliwe.driver.SlideDocumentDriver"/>
+	<driver type="mindmap" extensions=".xmind" class="com.schooliwe.driver.XMindDocumentDriver"/>
+	<driver type="geogebra" extensions=".ggb" class="com.schooliwe.driver.GeogebraDocumentDriver"/>
+	<driver type="geolabo" extensions=".glb" class="com.schooliwe.driver.CopyModelDocumentDriver" model="model.glb"/>
+</drivers>

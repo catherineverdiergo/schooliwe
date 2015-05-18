@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<homeworks>
+	<homework type="exam" label="Examen" icon="blackflag.png"/>
+	<homework type="eval" label="Evaluation" icon="redflag.png"/>
+	<homework type="homework_eval" label="Devoir maison" icon="blueflag.png"/>
+	<homework type="homework" label="Devoir simple" icon="greenflag.png" default="yes"/>
+</homeworks>

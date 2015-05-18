@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<timetable>
+	<days>
+		<day key="Monday" name="Lundi"/>
+		<day key="Tuesday" name="Mardi"/>
+		<day key="Wednesday" name="Mercredi"/>
+		<day key="Thursday" name="Jeudi"/>
+		<day key="Friday" name="Vendredi"/>
+	</days>
+	<timeintervals>
+		<timeinterval opentime="08:00" closetime="12:00"/>
+		<timeinterval opentime="13:30" closetime="17:30"/>
+	</timeintervals>
+	<timeformat value="HH:mm"/>
+	<timeunit value="01:00"/>
+	<timetitle value="Horaire"/>
+</timetable>
