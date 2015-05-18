@@ -31,3 +31,10 @@ Each topic is related with an actionObject (java singeton which manages the topi
 Any new educational topic is always managed by the 'lessonsManager' actionObject.<br>
 ActionObjects to be created by application are defined in the rsc/actionobjects.xml file.<br>
 For developers, application could be extended defining new topics and action objects.<br>
+
+### Define applications used to store lesson's notes
+LessonsManager actionObject allow user to create documents with external applications (such as office writer, office calc, geogebra...etc...).<br>
+User favorite applications features should be defined in the  rsc/softwares.xml file.<br>
+To create an empty document for a dedicated application, schooliwe uses documentdrivers (see rsc/documentdrivers.xml file).<br>
+If you want use a software which is not referenced in the rsc/softwares.xml file, it will be necessary to define a new documentdriver.<br>
+The easer way to create a new documentdriver is to use the com.schooliwe.driver.CopyModelDocumentDriver with a realted document model corresponding to an empty software file.
