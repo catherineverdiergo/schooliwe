@@ -21,3 +21,4 @@ To install application, process as follow:
 * In the rsc/timetable.xml file, day tag's "name" attribute should be translated in target locale
 * In the rsc/topics.xml file, topic tag's "name" and "timetableLabel" attributes should be translated in target locale
 * In the rsc/vacation.xml file, vacation tag's "label" attribute should be translated in target locale
+* In the start.sh and start.bat files, parameter locale should be customized
