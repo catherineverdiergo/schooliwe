@@ -22,6 +22,7 @@ To install application, process as follow:
 * In the rsc/topics.xml file, topic tag's "name" and "timetableLabel" attributes should be translated in target locale
 * In the rsc/vacation.xml file, vacation tag's "label" attribute should be translated in target locale
 * In the start.sh and start.bat files, parameter locale should be customized
+
 ### Define application topics
 Application main tree holds a list of topics which are defined in the rsc/topics.xml file.
 The two first topics (timetable and homework agenda) can be kept as permanent topics.
