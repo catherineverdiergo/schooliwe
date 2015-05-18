@@ -1,13 +1,13 @@
 # schooliwe (Numeric schoolbag)
 
 SchoolIWE means school integrated working enviroment.<br>
-SchoolIWE is a Java Swing rich application highly customizable and dedicated to easily organize school data (such as timetable, homework agenda, numeric doduments) for pupils using a computer at school.
+SchoolIWE is a Java Swing rich application highly customizable and dedicated to easily organize school data (such as timetable, homework agenda, numeric doduments) for pupils using a computer at school.<br>
 This application has been particularly thought to help children who have organizational troubles.
 
 ## Starting application
-Note: default configuration is french locale compliant.
-Application is uploaded on gitHub with an eclipse project.
-An Ant script (build.xml) is available to generate an install .zip package: schooliwe.zip
+Note: default configuration is french locale compliant.<br>
+Application is uploaded on gitHub with an eclipse project.<br>
+An Ant script (build.xml) is available to generate an install .zip package: schooliwe.zip<br>
 To install application, process as follow:
 * generate schooliwe.zip;
 * unzip previous archive in a directory on your disk;
@@ -24,10 +24,10 @@ To install application, process as follow:
 * In the start.sh and start.bat files, parameter locale should be customized
 
 ### Define application topics
-Application main tree holds a list of topics which are defined in the rsc/topics.xml file.
-The two first topics (timetable and homework agenda) can be kept as permanent topics.
-Other topics can be defined regarding to subjects studied by pupil.
-Each topic is related with an actionObject (java singeton which manages the topic).
-Any new educational topic is always managed by the 'lessonsManager' actionObject.
-ActionObjects to be created by application are defined in the rsc/actionobjects.xml file.
-For developers, application could be extended defining new topics and action objects.
+Application main tree holds a list of topics which are defined in the rsc/topics.xml file.<br>
+The two first topics (timetable and homework agenda) can be kept as permanent topics.<br>
+Other topics can be defined regarding to subjects studied by pupil.<br>
+Each topic is related with an actionObject (java singeton which manages the topic).<br>
+Any new educational topic is always managed by the 'lessonsManager' actionObject.<br>
+ActionObjects to be created by application are defined in the rsc/actionobjects.xml file.<br>
+For developers, application could be extended defining new topics and action objects.<br>
